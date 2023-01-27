@@ -24,6 +24,8 @@ To access the full functionality of this *Weather Forecast Dashboard*, simply ty
 
 ## *Live Link*
 
+[Deployed Site](https://jjray84.github.io/Weather-Forcast/)
+
 ## *Contact*
 
 [GitHub](https://www.github.com/jjray84/)
