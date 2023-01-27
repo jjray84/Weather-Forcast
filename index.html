@@ -34,9 +34,10 @@
           
         <div class="card col-8 bs-card-border-2px shadow p-2 mb-5 bg-light" id="main-container";>
           <h2 class="card-title fs-1 justify-content-between" id="currentCityName"></h2>
-          <h6 class="card-subtitle mb-2 text-muted" id="currentWeather"></h6>
-          <h4 class="card-subtitle mb-2 text-muted" id="currentDate"></h4>
-          <h6 class="card-subtitle mb-2 text-muted" id="temp"></h6>
+          <h6 class="card-subtitle mb-2" id="currentWeather"></h6>
+          <h6 id="icon"></h6>
+          <h4 class="card-subtitle mb-2" id="currentDate"></h4>
+          <h4 class="card-subtitle mb-2" id="temp"></h4>
           <h6 class="card-subtitle mb-2 text-muted" id="high"></h6>
           <h6 class="card-subtitle mb-2 text-muted" id="low"></h6>
           <h6 class="card-subtitle mb-2 text-muted" id="wind"></h6>
@@ -46,73 +47,10 @@
 
       </main>  
 
-
-        <div class="container text-right mt-5">
-            <div class="row row-cols-2 row-cols-lg-5 g-2 g-l g-3">
-              <div class="col">
-                <div class="p-3">Day 1</div>
-                <div class="card" style="width: 18rem;">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="p-3">Day 2</div>
-                <div class="card" style="width: 18rem;">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="p-3">Day 3</div>
-                <div class="card" style="width: 18rem;">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="p-3">Day 4</div>
-                <div class="card" style="width: 18rem;">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="p-3">Day 5</div>
-                <div class="card" style="width: 18rem;">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+      
+        <div class="container row text-right" style="max-width: 2000px;" id="forecastContainer">
         </div>
 
-      </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="./assests/script.js"></script>
   </body>
